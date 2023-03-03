@@ -1,14 +1,29 @@
-/* Add style elements */
+/* #1fea00	(31,234,0) -bright green
+#27a102	(39,161,2)
+#1c6000	(28,96,0)
+#000000	(0,0,0) -black 
+https://www.color-hex.com/color-palette/10080 */
+
 body{
     display: flex;
     flex-direction: column;
     margin: auto;
     max-width: 1200px;
     min-height: 100vh;
+    background-color: #000000;
+    color: #27a102;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+a{ 
+    color: #27a102;
+    text-decoration: none;
+}
+
+a:hover{ text-decoration: underline;
 
 }
 header{
-    border: 5px solid blue;
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -21,27 +36,57 @@ nav{
     justify-content: space-between;
 }
 /* Add style elements */
-
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+}
 h2{
     display: flex;
     align-self: flex-end;
 }
+.profile-pic {
+    width: 100px;
+    border-radius: 10px;
+
+}
    /* Add style elements */
 
 main{
-    border: 5px solid rgb(10, 10, 169);
+    background-color: rgb(48, 48, 48);
+    padding-bottom: 16px;
+    
+/* Found that flex-grow allows content to flex with available screen size */
+}
+#about-me{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+#about-me p{
+    width: 80%;
+}
+
+#work{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-/* Found that flex-grow allows content to flex with available screen size */
 }
 .featured-project{
-    background-color: red;
+    background-color: black;
     width: 80%;
     height: 50%;
     flex-grow: 2;
     margin: 16px;
+    border-radius: 10px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sub-projects{
     display: flex;
@@ -51,16 +96,25 @@ main{
     gap: 10px;
 }
 .sub-project{
-    background-color: aqua;
+    background-color: black;
     width: 50%;
     height: 200px;
-    border: 5px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
 }
 /* Add style elements */
 
 footer{ 
-    border: 5px solid gray;
     padding: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
