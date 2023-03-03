@@ -1,0 +1,66 @@
+/* Add style elements */
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1200px;
+    min-height: 100vh;
+
+}
+header{
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Add style elements */
+
+h2{
+    display: flex;
+    align-self: flex-end;
+}
+   /* Add style elements */
+
+main{
+    border: 5px solid rgb(10, 10, 169);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+/* Found that flex-grow allows content to flex with available screen size */
+}
+.featured-project{
+    background-color: red;
+    width: 80%;
+    height: 50%;
+    flex-grow: 2;
+    margin: 16px;
+}
+.sub-projects{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-grow: 1;
+    gap: 10px;
+}
+.sub-project{
+    background-color: aqua;
+    width: 50%;
+    height: 200px;
+    border: 5px solid;
+
+}
+/* Add style elements */
+
+footer{ 
+    border: 5px solid gray;
+    padding: 32px;
+
+}
