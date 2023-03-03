@@ -35,6 +35,9 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+nav a{
+    margin-left: 16px;
+}
 /* Add style elements */
 .sub-header{
     display: flex;
