@@ -9,3 +9,4 @@ Phase 1:
 Phase 2:
 1: I want to optimize my code to add creative elements
 2: I want to make sure my code works
+3: I want to make sure my links take me to the correct sections
